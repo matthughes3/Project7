@@ -9,6 +9,7 @@ h1{
   background-color: #265A8D;
   text-align:center; 
   font-family:  'Times New Roman', Times, serif;
+  font-size: larger;
 }
 h2{
   color:#346434; 
@@ -40,13 +41,15 @@ a:visited{
   color:#3b8ee0
 }
 a:hover{
-  color:#D9712E
+  color:#D9712E;
 }
 .thumbnailleft{
+  display: block;
   float: left; 
   padding-right: 10px
 }
 .thumbnailright{ 
+  display: block;
   float: right; 
   padding-left:10px
 }
@@ -61,6 +64,7 @@ header img{
 }
 .list{
   display: flex;
+  justify-content: center;
 }
 .block{
   display: block;
@@ -101,4 +105,15 @@ footer{
 }
 #logo{
   display: block;
+}
+.middle{
+  display: block;
+  align-items: center;
+}
+.bottomText{
+  text-align: center;
+}
+article{
+  width:800px;
+
 }
