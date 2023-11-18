@@ -11,7 +11,12 @@
     <div id="container">
 
         <header>
-            <img src="Images/Logo1.jpg" alt="Logo" height="148px" width="150px">
+            <div class="logo">
+                <a href=""
+                onmouseover="document.getElementById('logo').src='Images/Logo2.jpg';"
+                onmouseout="document.getElementById('logo').src='Images/Logo1.jpg';">
+                <img src="Images/Logo1.jpg" alt="Logo" id="logo" height="148px" width="150px"></a>
+            </div>
             <img src="Images/RentAPetBanner.jpg" width="501px" height="148px">
             <br>
             <nav>
@@ -31,39 +36,46 @@
 
         <section>
             <article>
-                <nav>
-                    <div class="list">
-                         <h1>Welcome to Rent A Pet!</h1>
-                        <p class="thumbnailleft">  If you love to interact with pets like we do, you should enjoy looking
-                            around this site.</p> 
-                        <p class="thumbnailright">Take a look at our Pet Profiles and take the
-                            opportunity to complete our survey.
-                        </p>
-                    </div>
-                    <br>
-                </nav>
-                <p class="instructions">
+                <h1 class="thumbnailcenter">Welcome to Rent A Pet!</h1>
+                <p class="welcome">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you love to interact with pets like we do, you should enjoy looking
+                    around this site. Take a look at our Pet Profiles and take the
+                    opportunity to complete our survey.
+                </p>
+                <h2 class="pain">Pet Profiles</h2>
+                <div class="imageswap">
+                    <p class="instructions">
 
-                    <div id="thumbs">
-                        <img src="Images/Thumbnail/Image1Sm.jpg" alt="Hunting Dogs"
-                    onmouseover="swapImage(0);" />
-                        <img src="Images/Thumbnail/Image2Sm.jpg" alt="Bird Dog"
-                    onmouseover="swapImage(1);" />
-                        <img src="Images/Thumbnail/Image3Sm.jpg" alt="Pig"
-                    onmouseover="swapImage(2);" />
-                        <img src="Images/Thumbnail/Image4Sm.jpg" alt="Cat"
-                    onmouseover="swapImage(3);" />
-            
-                    <br />
-            
-                    </div>
-
-                    <div id="image">
-            
-                        <img id="theImage" src="Images/FullSize/Image1Lg.jpg" alt="Hunting Dogs" 
-                            width="400px" height="267px" />
-                        <h3 id="bottomText">Two Hunting Dogs</h3>
-                    </div>
+                        <div id="thumbs">
+                            <img src="Images/Thumbnail/Image1Sm.jpg" alt="Hunting Dogs"
+                        onmouseover="swapImage(0);" />
+                            <img src="Images/Thumbnail/Image2Sm.jpg" alt="Bird Dog"
+                        onmouseover="swapImage(1);" />
+                            <img src="Images/Thumbnail/Image3Sm.jpg" alt="Pig"
+                        onmouseover="swapImage(2);" />
+                            <img src="Images/Thumbnail/Image4Sm.jpg" alt="Cat"
+                        onmouseover="swapImage(3);" />
+                
+                        <br />
+                
+                        </div>
+                        <div id="image">
+                
+                            <img id="theImage" src="Images/Fullsize/Image1Lg.jpg" alt="Hunting Dogs" />
+                            <h3 id="bottomText">Two Hunting Dogs</h3>
+                </div>
+                <div class="tributes-snippet">
+                    <h2>Tributes</h2>
+                    <p class="welcome">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My name is Bessie Anderson and I currently 
+                        live in a retirement community that has a 
+                        prohibition on pets.  I really wanted to 
+                        have a small dog that I could take out 
+                        for walks, but I though it was not possible.Then I heard about Rent A Pet and I was 
+                          excited to give it a try... <p class="more"><a href="../Project3/Tributes.html">See More>></a></p><img src="Images/Tributes/BassetHoundSM.jpg" alt="Hound"
+                          width="200" height="199" class="help">
+                          </p>
+                          
+                    
+                </div>
             </article>
 
         </section>
@@ -85,7 +97,7 @@
                 id="print"></a>
             
             
-                <a href="matthewhughes766@gmail.com" class="thumbnailright">Contact Us</a>
+                <a href="email:matthewhughes766@gmail.com" class="email">Contact Us</a>
             
         </footer>
     </div>
