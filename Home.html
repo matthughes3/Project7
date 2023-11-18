@@ -7,31 +7,22 @@
 <script type="text/javascript" src="myscript.js"></script>
 </head>
 
-<body onload="preloadImages()" id="container">
-    <div class="thumbnailcenter">
+<body onload="preloadImages()">
+    <div id="container">
 
         <header>
+            <img src="Images/Logo1.jpg" alt="Logo" height="148px" width="150px">
+            <img src="Images/RentAPetBanner.jpg" width="400px" height="118px">
+            <br>
             <nav>
-                
-                    <ul>
-                        <il><a href="Home.html">Home</a></il>
-                        <il><a href="#">Tributes</a></il>
-                        <il><a href="#">About Us</a></il>
-                        <il><a href="#">Survey</a></il>
-                        <il><a href="#">Favorites</a></il>
-                    </ul>
-                
+                <ul class="list">
+                    <il class="block"><a href="Home.html" class="underline">Home</a></il>
+                    <il class="block"><a href="#" class="underline">About Us</a></il>
+                    <il class="block"><a href="#" class="underline">Tributes</a></il>
+                    <il class="block"><a href="#" class="underline">Survey</a></il>
+                    <il class="block"><a href="#" class="underline">Favorites</a></il>
+                </ul>
             </nav>
-                
-                    <img src="Images/RentAPetBanner.jpg" class="thumbnailcenter">
-                
-            <nav class="thumbnailleft">
-                    <a href=""
-                    onmouseover="document.getElementById('logo').src='Images/Logo2.jpg';"
-                    onmouseout="document.getElementById('logo').src='Images/Logo1.jpg';">
-                    <img src="Images/Logo1.jpg" alt="Logo" id="logo"></a>
-            </nav>
-            
         </header>
 
 
@@ -63,9 +54,11 @@
                     <br />
             
                     </div>
+
                     <div id="image">
             
-                        <img id="theImage" src="Images/FullSize/Image1Lg.jpg" alt="Hunting Dogs" />
+                        <img id="theImage" src="Images/FullSize/Image1Lg.jpg" alt="Hunting Dogs" 
+                            width="400px" height="267px" />
                         <h3 id="bottomText">Two Hunting Dogs</h3>
                     </div>
             </article>
